@@ -20,8 +20,8 @@ const Header = () => {
     { name: "Blog", link: "#" },
   ];
   return (
-    <div className="bg-[#732EF9] sticky top-0 w-full">
-      <div className="max-w-[1200px] mx-auto px-[16px] flex items-center justify-between py-[20px] text-white">
+    <div className="bg-[#732EF9] sticky top-0 w-full z-999">
+      <div className="max-w-[1400px] mx-auto px-[16px] flex items-center justify-between py-[20px] text-white">
         <div
           className="block md:hidden text-[22px] ml-[10px] mr-[25px]"
           onClick={handleClick}
