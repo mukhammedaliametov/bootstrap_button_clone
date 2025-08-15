@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <div className="max-w-[1400px] mx-auto px-[16px] relative">
       <Sidebar />
-      <div className="mx-0 md:mx-[20%] flex ">
-        <div className="font-inter mt-[20px] w-[100%]">
+      <div className="mx-0 md:mx-[20%] mt-[-600px]">
+        <div className="font-inter w-[100%]">
           <h1 className="text-3xl font-bold mb-4">Buttons</h1>
           <p className="text-gray-600 mb-6">
             Use Bootstrap's custom button styles for actions in forms, dialogs,
@@ -352,9 +352,10 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="hidden md:block w-[240px] fixed right-0 mt-[15px]">
+      </div>
+        <div className="hidden md:block w-[240px] fixed right-0 bottom-0 top-[80px]  mt-[15px] ">
           <div className=" text-sm">
-            <p className="font-medium ml-[16px] border-b text-[18px] border-gray-300 pb-[5px] mb-[5px] w-[80%]">
+            <p className="font-medium ml-[20px] border-b text-[18px] border-gray-300 pb-[5px] mb-[5px] w-[80%]">
               On this page
             </p>
             <ul className="space-y-3 border-l border-gray-300 pl-4">
@@ -371,7 +372,6 @@ const Hero = () => {
             </ul>
           </div>
         </div>
-      </div>
     </div>
   );
 };

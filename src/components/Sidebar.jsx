@@ -30,7 +30,7 @@ const Sidebar = () => {
     { name: "Tooltips" },
   ];
   return (
-    <div className="hidden md:block fixed w-[240px] mt-[15px] font-inter">
+    <div className="hidden md:block sticky bottom-0 top-0 w-[240px] mt-[15px] font-inter z-50">
       <div className="flex flex-col">
         <div className="flex flex-col h-[100vh] overflow-y-scroll">
           {sidebarItems.map((item, index) => {
